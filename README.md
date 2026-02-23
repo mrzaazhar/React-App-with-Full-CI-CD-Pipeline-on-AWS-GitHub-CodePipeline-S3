@@ -88,7 +88,7 @@ git push origin main
 - Executes test suite
 - Creates optimized static assets
 
-**[INSERT SCREENSHOT: CodeBuild Console showing successful build]**
+**[Screenshot_2026-02-23_162951.jpg]**
 
 *Placeholder: Add a screenshot of AWS CodeBuild console showing build logs and success*
 
@@ -265,8 +265,8 @@ Contributions are welcome! Please follow these steps:
 
 ## 📧 Contact
 
-- **Developer**: [Your Name]
-- **Email**: your.email@example.com
+- **Developer**: [Mirza]
+- **Email**: mirzaazhar5963@gmail.com
 - **LinkedIn**: [linkedin.com/in/yourprofile]
 - **GitHub**: [github.com/yourusername]
 
