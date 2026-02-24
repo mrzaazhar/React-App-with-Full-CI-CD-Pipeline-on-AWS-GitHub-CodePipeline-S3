@@ -88,7 +88,7 @@ git push origin main
 - Executes test suite
 - Creates optimized static assets
 
-**[Screenshot_2026-02-23_162951.jpg]**
+![image alt]()
 
 *Placeholder: Add a screenshot of AWS CodeBuild console showing build logs and success*
 
@@ -97,7 +97,7 @@ git push origin main
 - Static hosting enabled for fast access
 - Version control for rollback capability
 
-**[INSERT SCREENSHOT: S3 Bucket with deployed files]**
+![image alt]()
 
 *Placeholder: Add a screenshot of your S3 bucket showing the deployed React app files*
 
@@ -107,7 +107,7 @@ git push origin main
 - Automatic HTTPS/SSL
 - Invalidations on new deployments
 
-**[INSERT SCREENSHOT: CloudFront Distribution Dashboard]**
+![image alt]()
 
 *Placeholder: Add a screenshot of AWS CloudFront distribution dashboard*
 
