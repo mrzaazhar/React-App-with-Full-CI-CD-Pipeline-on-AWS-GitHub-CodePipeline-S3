@@ -1,13 +1,13 @@
-# 🚀 React App with Production-Grade CI/CD Pipeline
+# 🚀 Learn React with AWS CI/CD Pipeline
 
 ![Project Banner](docs/images/banner.png)
 <!-- Add your project banner image above -->
 
 ---
 
-## 💡 Elevate Your Development Workflow with AWS-Powered DevOps
+## 💡 Introduction
 
-Welcome to a modern React application showcasing **best practices in cloud-native deployment**. This project demonstrates a complete **production-ready CI/CD pipeline** built on AWS, designed to automate every step from code commit to global content delivery.
+Hi there. This project is my first ever cloud project. This project demonstrates a complete **production-ready CI/CD pipeline** built on AWS, designed to automate every step from code commit to global content delivery. I created a static website using react (for practice purposes). This project is my first practical skill that i applied after few weeks diving in cloud technologies theories. The key highlight of this project is the CI/CD pipeline that i created to help developers smoothly deliver updates, testing and deploy automatically.
 
 ---
 
@@ -25,7 +25,6 @@ Welcome to a modern React application showcasing **best practices in cloud-nativ
 - ☁️ **Cloud-Native Architecture** - Built entirely on AWS
 - ⚡ **Lightning-Fast Delivery** - Global CDN via CloudFront
 - 🔒 **Infrastructure as Code Ready** - Scalable and maintainable
-- 🚀 **Production-Grade** - Real-world DevOps patterns
 
 ---
 
@@ -90,7 +89,7 @@ git push origin main
 
 ![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/143a98bce63d1ac29cbf587217cf8f41cbc6cf9f/Screenshot%202026-02-24%20105235.png)
 
-*Placeholder: Add a screenshot of AWS CodeBuild console showing build logs and success*
+*Screenshot of AWS CodeBuild console showing build logs and success*
 
 ### 4️⃣ **Deploy to AWS S3**
 - Optimized build artifacts are uploaded to S3
@@ -99,17 +98,16 @@ git push origin main
 
 ![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/59d57cd02796b670711aba260bc63d1ca6f7b113/Screenshot%202026-02-24%20105337.png)
 
-*Placeholder: Add a screenshot of your S3 bucket showing the deployed React app files*
+*Screenshot of S3 bucket showing the deployed React app files*
 
 ### 5️⃣ **CloudFront Delivers Globally**
 - Content cached at edge locations worldwide
 - Reduced latency for global users
-- Automatic HTTPS/SSL
-- Invalidations on new deployments
+- Faster content delivery network (CDN)
 
-![image alt]()
+![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/882bd64b0aada17a709a932f5862f55829819611/Screenshot%202026-02-24%20105608.png)
 
-*Placeholder: Add a screenshot of AWS CloudFront distribution dashboard*
+*Open Link: d22w6jdd9ptive.cloudfront.net*
 
 ---
 
