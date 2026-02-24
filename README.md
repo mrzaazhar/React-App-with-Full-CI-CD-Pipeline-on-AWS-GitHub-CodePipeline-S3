@@ -88,7 +88,7 @@ git push origin main
 - Executes test suite
 - Creates optimized static assets
 
-![image alt]()
+![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/143a98bce63d1ac29cbf587217cf8f41cbc6cf9f/Screenshot%202026-02-24%20105235.png)
 
 *Placeholder: Add a screenshot of AWS CodeBuild console showing build logs and success*
 
