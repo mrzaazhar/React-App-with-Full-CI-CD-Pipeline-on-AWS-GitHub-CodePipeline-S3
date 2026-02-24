@@ -48,7 +48,7 @@ Welcome to a modern React application showcasing **best practices in cloud-nativ
 
 ## 🏗️ Architecture Overview
 
-**[INSERT DIAGRAM: CI/CD Pipeline Architecture]**
+**[https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/d9160f36dd5a1d8e4957c0cb26a57a9a1e5c3b85/Screenshot%202026-02-23%20162951.png]**
 
 *Placeholder: Add a diagram showing the complete pipeline flow: GitHub → CodePipeline → CodeBuild → S3 → CloudFront*
 
