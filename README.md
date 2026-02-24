@@ -97,7 +97,7 @@ git push origin main
 - Static hosting enabled for fast access
 - Version control for rollback capability
 
-![image alt]()
+![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/59d57cd02796b670711aba260bc63d1ca6f7b113/Screenshot%202026-02-24%20105337.png)
 
 *Placeholder: Add a screenshot of your S3 bucket showing the deployed React app files*
 
