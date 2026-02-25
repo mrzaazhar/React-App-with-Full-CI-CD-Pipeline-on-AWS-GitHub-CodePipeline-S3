@@ -1,8 +1,5 @@
 # 🚀 Learn React with AWS CI/CD Pipeline
 
-![Project Banner](docs/images/banner.png)
-<!-- Add your project banner image above -->
-
 ---
 
 ## 💡 Introduction
@@ -49,7 +46,7 @@ Hi there. This project is my first ever cloud project. This project demonstrates
 
 ![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/d9160f36dd5a1d8e4957c0cb26a57a9a1e5c3b85/Screenshot%202026-02-23%20162951.png)
 
-*Placeholder: Add a diagram showing the complete pipeline flow: GitHub → CodePipeline → CodeBuild → S3 → CloudFront*
+*Pipeline flow: GitHub → CodePipeline → CodeBuild → S3 → CloudFront*
 
 ### Pipeline Flow
 
@@ -61,11 +58,6 @@ Hi there. This project is my first ever cloud project. This project demonstrates
                       Trigger on Commit         Build Production       Deploy Static        Global Delivery
                                                Bundle                 Files
 ```
-
-**[INSERT DIAGRAM: Detailed AWS Services Interaction]**
-
-*Placeholder: Add a more detailed diagram showing how each AWS service interacts*
-
 ---
 
 ## 🔥 How It Works
@@ -133,21 +125,6 @@ git push origin main
 - **Pipeline Status**: Real-time deployment tracking
 - **Error Alerts**: Notifications on failures
 
----
-
-## 🎨 Application Features
-
-**[INSERT SCREENSHOT: Feature 1]**
-*Placeholder: Add screenshot of key feature 1*
-
-**[INSERT SCREENSHOT: Feature 2]**
-*Placeholder: Add screenshot of key feature 2*
-
-**[INSERT SCREENSHOT: Feature 3]**
-*Placeholder: Add screenshot of key feature 3*
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -188,10 +165,6 @@ The pipeline is configured with these stages:
 | Build | CodeBuild | Compiles, tests, and builds React app |
 | Deploy | S3 + CloudFront | Deploys static files and invalidates cache |
 
-**[INSERT SCREENSHOT: CodePipeline Console with stages]**
-
-*Placeholder: Add a screenshot showing your CodePipeline stages*
-
 ### CodeBuild Buildspec
 ```yaml
 version: 0.2
@@ -211,87 +184,15 @@ phases:
       - aws s3 sync ./build s3://YOUR_BUCKET_NAME --delete
       - aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
 ```
-
----
-
-## 🎯 Use Cases
-
-This architecture is perfect for:
-- **Static Web Applications** - React, Vue, Angular, Next.js
-- **Documentation Sites** - Docusaurus, VuePress
-- **Landing Pages** - Marketing websites
-- **Portfolio Projects** - Personal showcases
-- **SPA Deployments** - Single Page Applications
-
----
-
-## 📈 Performance Metrics
-
-- **Build Time**: ~2-3 minutes
-- **Deployment Time**: ~1 minute
-- **Global Latency**: <100ms (with CloudFront)
-- **Uptime**: 99.9%+ (S3 + CloudFront)
-
-**[INSERT CHART: Performance Metrics]**
-
-*Placeholder: Add a chart or graph showing performance metrics*
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Add AWS Lambda for serverless functions
-- [ ] Implement GitHub Actions for additional CI/CD stages
-- [ ] Add automated security scanning (Snyk, Dependabot)
-- [ ] Implement blue/green deployment strategy
-- [ ] Add monitoring with AWS CloudWatch
-- [ ] Set up automated testing with Cypress/Playwright
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
 ## 📧 Contact
 
-- **Developer**: [Mirza]
+- **Developer**: Mirza
 - **Email**: mirzaazhar5963@gmail.com
-- **LinkedIn**: [linkedin.com/in/yourprofile]
-- **GitHub**: [github.com/yourusername]
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- React Team for the amazing framework
-- AWS for powerful cloud services
-- Open-source community for invaluable tools and libraries
 
 ---
 
 <div align="center">
 
 ### ⭐ If you find this project helpful, please give it a star!
-
-Made with ❤️ by [Your Name]
-
-**[INSERT SCREENSHOT: Developer Photo or Project Logo]**
-
-*Placeholder: Add your photo or project logo*
 
 </div>
