@@ -15,8 +15,7 @@ Hi there. This project is my first ever cloud project. This project demonstrates
 
 ![image alt](https://github.com/mrzaazhar/React-App-with-Full-CI-CD-Pipeline-on-AWS-GitHub-CodePipeline-S3/blob/2e4b6db534fd726619d5aec03ca25ea87fba1026/Screenshot%202026-02-25%20093058.png)
 
-*Learn React Interface*
-*Link:d22w6jdd9ptive.cloudfront.net
+*Learn React Interface: d22w6jdd9ptive.cloudfront.net*
 
 ---
 
