@@ -4,7 +4,7 @@
 
 ## 💡 Introduction
 
-Hi there. This project is my first ever cloud project. This project demonstrates a complete **production-ready CI/CD pipeline** built on AWS, designed to automate every step from code commit to global content delivery. I created a static website using react (for practice purposes). This project is my first practical skill that i applied after few weeks diving in cloud technologies theories. The key highlight of this project is the CI/CD pipeline that i created to help developers smoothly deliver updates, testing and deploy automatically.
+Hi there. This project is my first ever cloud project. This project demonstrates a complete **production-ready CI/CD pipeline** built on AWS, designed to automate every step from code commit to global content delivery. I created a static website using react (Learn React). This project is my first practical skill that i applied after few weeks diving in cloud technologies theories. The key highlight of this project is the CI/CD pipeline that i created to help developers smoothly deliver updates, testing and deploy automatically.
 
 ---
 
@@ -112,12 +112,10 @@ git push origin main
 
 ### 🌍 **Global Performance**
 - **Edge Caching**: Content served from 400+ edge locations
-- **SSL/TLS**: Automatic HTTPS security
 - **Compression**: Optimized file sizes for faster loading
 
 ### 🔒 **Security & Reliability**
 - **CI/CD Best Practices**: Automated testing before deployment
-- **Access Control**: AWS IAM policies for secure operations
 - **Version Control**: Full traceability of all deployments
 
 ### 📊 **Monitoring & Logs**
@@ -190,9 +188,3 @@ phases:
 - **Email**: mirzaazhar5963@gmail.com
 
 ---
-
-<div align="center">
-
-### ⭐ If you find this project helpful, please give it a star!
-
-</div>
